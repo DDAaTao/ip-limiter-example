@@ -1,6 +1,6 @@
 package com.example.iplimiter.example.window;
 
-import com.siiri.limiter.core.annotation.IpLimit;
+import com.van.limiter.core.annotation.IpLimit;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

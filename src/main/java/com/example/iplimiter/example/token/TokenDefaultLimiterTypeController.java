@@ -1,7 +1,7 @@
 package com.example.iplimiter.example.token;
 
-import com.siiri.limiter.core.annotation.IpLimit;
-import com.siiri.limiter.core.enums.CurrentLimiterType;
+import com.van.limiter.core.annotation.IpLimit;
+import com.van.limiter.core.enums.CurrentLimiterType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

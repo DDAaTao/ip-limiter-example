@@ -1,6 +1,6 @@
 package com.example.iplimiter.example;
 
-import com.siiri.limiter.core.annotation.EnableIpLimit;
+import com.van.limiter.core.annotation.EnableIpLimit;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
