@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
+ * 纯白名单模式测试
  * @author van
  */
 @IpLimit(maxTimes = 2, limitType = LimitType.WHITE_LIST, whiteList="${my.white.list}")
