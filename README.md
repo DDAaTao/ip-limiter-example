@@ -3,7 +3,7 @@ author: van , ggfanwentao@gmail.com
 ~~~
 ---
 
-# Ip-Limit: 轻量级注解式IP限流组件
+# Ip-Limit-Example: 轻量级注解式IP限流组件使用样例
 
 ## 项目简介
 该项目为ip-limiter的使用示例项目。
