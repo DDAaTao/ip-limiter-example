@@ -47,9 +47,13 @@ ip-limiter地址： https://github.com/DDAaTao/ip-limiter
     <version>1.0.3</version>
   </dependency>
 ```
-2. 将 @EnableIpLimit 添加到 webApplication 类上,或其他可以被 Spring 扫描到的类上
+2. 将 @EnableIpLimit 添加到 webApplication 类上,或其他可以被 Spring 扫描到的配置类上
 3. 将 @IpLimit 注解添加到想要做IP限流的方法（接口）上，根据需求动态调整参数
+<img alt="EnableIpLimit" src="src/main/resources/static/example/defaultrequest.png">
+<img alt="EnableIpLimit" src="src/main/resources/static/example/whitrequest.png">
 4. 可通过注入 IpLimitUtils 动态设置限流配置 - DynamicIpListController
+<img alt="EnableIpLimit" src="src/main/resources/static/example/dynamic.png">
+
 
 ## 部分测试结果
 > 性能上来讲，推荐使用滑动窗口限流
